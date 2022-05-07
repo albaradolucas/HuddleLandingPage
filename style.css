@@ -1,0 +1,30 @@
+main {
+    font-family: 'Poppins', sans-serif;
+}
+
+.imgLogo {
+    position: absolute;
+    z-index: 20;
+    top: 30px;
+    left: 30px;
+}
+
+.back {
+    position: relative;
+    display: flex;
+    object-fit: cover;
+}
+
+.imgBack {
+    position: absolute;
+    z-index: 5;
+    object-fit: none;
+    object-position: center;
+}
+
+.imgMock {
+    position: relative;
+    z-index: 15;
+    top: 250px;
+    left: 50px;
+}
